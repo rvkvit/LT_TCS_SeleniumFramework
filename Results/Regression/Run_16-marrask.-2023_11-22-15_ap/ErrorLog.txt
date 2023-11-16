@@ -1,0 +1,10 @@
+Exception in thread "pool-1-thread-1" java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFRow.getCell(int)" because "row" is null
+	at com.LT.framework.ExcelDataAccess.getRowNum(ExcelDataAccess.java:170)
+	at com.LT.framework.ExcelDataAccess.getRowNum(ExcelDataAccess.java:222)
+	at supportlibraries.DriverScript.initializeTestIterations(DriverScript.java:153)
+	at supportlibraries.DriverScript.driveTestExecution(DriverScript.java:95)
+	at allocator.ParallelRunner.invokeTestScript(ParallelRunner.java:60)
+	at allocator.ParallelRunner.run(ParallelRunner.java:34)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)

@@ -1,0 +1,4 @@
+allocator\Allocator.class
+testscripts\scenario1\TC_1.class
+allocator\ParallelRunner.class
+allocator\QcTestRunner.class
